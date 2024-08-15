@@ -5,7 +5,9 @@
     padding: 0px;
 }
 body {
-    background-size:100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(coffee-shop-393954_1280.jpg);
 }
 .cabeçalho {
     display: flex;
@@ -52,26 +54,20 @@ hr {
 main {
     display: flex;
     justify-content: center;
-    margin: 100px;
+    margin: 100px; 
 }
 .opção {
-    width: 200px;
-    height: 300px;
+    display:flex;
+    flex-direction: column;
     background-color: white;
     margin: 30px;
     border-radius: 20px;
+    min-width: 200px;
+    min-height: 200px;
 }
 .item {
     width: 200px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
 }
-h3 {
-    font-family: "Joti One", serif;
-    text-align: center;
-}
-p {
-    font-family: "Joti One", serif;
-    padding: 10px;
-    color: green;
-}
+
