@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.o_que_somos{
+width: 50px; height: auto;
+text-align: center;
+align-items: center;
+}
+
+.cabeçalho{
+    width: 50px;
+}
+
+div {
+    height: 100px;
+    width: 500px;
+    background-color: rgb(28, 248, 8);
+  }
