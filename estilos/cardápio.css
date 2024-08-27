@@ -5,6 +5,7 @@
     padding: 0px;
 }
 body {
+    background-image: url(../imagens/backgorund.jpg);
     background-size:100%;
 }
 .cabeçalho {
@@ -55,23 +56,33 @@ main {
     margin: 100px;
 }
 .opção {
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
     background-color: white;
     margin: 30px;
     border-radius: 20px;
 }
 .item {
-    width: 200px;
+    width: 300px;
+    height: 300px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-h3 {
+.opção h3 {
     font-family: "Joti One", serif;
     text-align: center;
+    font-size: x-large;
 }
-p {
+.opção p  {
+    padding-top: 10px;
     font-family: "Joti One", serif;
-    padding: 10px;
+    font-size: x-large;
+    justify-content: center;
     color: green;
+    text-align: center;
+    
+}
+.opção hr{
+    width: auto;
+    margin-top: 5px;
 }
