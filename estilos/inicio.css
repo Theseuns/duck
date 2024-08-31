@@ -49,11 +49,22 @@ li {
 hr {
     width: 100%;
 }
-.frase p{
+.frase .primeiro{
     color: rgb(0, 0, 0);
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 20px;
+    text-align: justify;
+}
+.frase .segundo{
+    color: rgb(0, 0, 0);
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: justify;
+}.frase .terceiro{
+    color: rgb(0, 0, 0);
+    padding-right: 20px;
+    padding-left: 20px;
     padding-bottom: 20px;
     text-align: justify;
 }
@@ -69,7 +80,9 @@ hr {
     width: auto; 
 }
 .materiais{
-    background-image: url(../imagens/buildings-1838418_1280.jpg);
+    background-image: url(../imagens/crosswalk-6803755_1280.jpg);
+    height: 700px;
+    width: auto; 
 }
 .apresentação .frase{
     margin-top: 50px;
@@ -87,9 +100,10 @@ hr {
 .materiais .frase{
     margin-top: 50px;
     margin-right: 7%;
+    margin-left: auto;
     align-items: center;
     min-height: 400px;
-    max-width: 40%;
+    max-width: 45%;
     background-color: white;
     font-family: "Raleway", sans-serif;
     font-size: x-large;
@@ -99,7 +113,7 @@ hr {
 }
 .materiais h1{
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding-left: 10px;
     padding-top: 50px;
 }

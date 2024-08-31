@@ -6,7 +6,7 @@
 }
 body {
     background-image: url(../imagens/backgorund.jpg);
-    background-size:100%;
+    background: size 100%;
 }
 .cabeçalho {
     display: flex;
@@ -14,6 +14,7 @@ body {
     align-items: center;
     justify-content: space-between;
     color: white;
+    background-color: black;
 }
 .logo{
     display: flex;
