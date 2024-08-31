@@ -57,17 +57,21 @@ hr {
     padding-bottom: 20px;
     text-align: justify;
 }
-.content h1{
+.apresentação h1{
     text-align: center;
     color: rgb(255, 255, 255);
     padding-left: 10px;
     padding-top: 50px;
 }
-.content{
+.apresentação{
     background-image: url(../imagens/hamburger-4103070_1280.jpg);
-    height: 100vh; 
+    height: 700px;
+    width: auto; 
 }
-.frase{
+.materiais{
+    background-image: url(../imagens/buildings-1838418_1280.jpg);
+}
+.apresentação .frase{
     margin-top: 50px;
     margin-left: 7%;
     align-items: center;
@@ -79,4 +83,23 @@ hr {
     font-style: normal;
     text-indent: 40px;
     border-radius: 25px;
+}
+.materiais .frase{
+    margin-top: 50px;
+    margin-right: 7%;
+    align-items: center;
+    min-height: 400px;
+    max-width: 40%;
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    text-indent: 40px;
+    border-radius: 25px;
+}
+.materiais h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-top: 50px;
 }
