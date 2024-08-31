@@ -52,8 +52,9 @@ hr {
 .frase p{
     color: rgb(0, 0, 0);
     padding-right: 20px;
-    padding-top: 20px;
     padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: justify;
 }
 .content h1{
