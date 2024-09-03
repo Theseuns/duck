@@ -59,26 +59,8 @@ hr {
     width: 100%;
 }
 
-.frase #primeiro {
+.frase .primeiro {
     color: rgb(0, 0, 0);
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
-    text-align: justify;
-}
-
-.frase #segundo {
-    color: rgb(0, 0, 0);
-    padding-right: 20px;
-    padding-left: 20px;
-    text-align: justify;
-}
-
-.frase #terceiro {
-    color: rgb(0, 0, 0);
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
     text-align: justify;
 }
 
@@ -105,7 +87,7 @@ hr {
     margin-top: 50px;
     margin-left: 7%;
     align-items: center;
-    min-height: 400px;
+    min-height: auto;
     max-width: 40%;
     background-color: white;
     font-family: "Raleway", sans-serif;
@@ -113,6 +95,7 @@ hr {
     font-style: normal;
     text-indent: 40px;
     border-radius: 25px;
+    padding: 20px;
 }
 
 .materiais .frase {
@@ -120,14 +103,15 @@ hr {
     margin-right: 7%;
     margin-left: auto;
     align-items: center;
-    min-height: 400px;
-    max-width: 45%;
+    min-height: auto;
+    max-width: 40%;
     background-color: white;
     font-family: "Raleway", sans-serif;
     font-size: x-large;
     font-style: normal;
     text-indent: 40px;
     border-radius: 25px;
+    padding: 20px;
 }
 
 .materiais h1 {
